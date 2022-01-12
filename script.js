@@ -27,6 +27,7 @@ const getSleepHours = (day) => {
     };
     
     //Curious the reasoning behind brackets not allowing the getActualSleepHours to work in below function
+    //ANSWER: Concise body syntax (with one parameter) does not use parentheses, curly braces, or the return keyword.
     const getActualSleepHours = () => 
       getSleepHours('sunday')
       + getSleepHours('monday')
